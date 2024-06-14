@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title= 'Alexander Black'
+theme = 'hugo-theme-console'
+[params]
+  navLinks = [
+    { name = "/about", url = "/about" },
+    { name = "/posts", url = "/posts" }
+  ]
