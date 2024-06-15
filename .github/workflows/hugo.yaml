@@ -43,6 +43,9 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Install modules
+        run: |
+          git submodule update --init --recursive
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
