@@ -1,9 +1,9 @@
-baseURL = 'https://algabl.github.io/blog'
+baseURL = 'https://algabl.github.io/blog/'
 languageCode = 'en-us'
 title= 'Alexander Black'
 theme = 'hugo-theme-console'
 [params]
   navLinks = [
-    { name = "/about", url = "/about" },
-    { name = "/posts", url = "/posts" }
+    { name = "about/", url = "about/" },
+    { name = "posts/", url = "posts/" }
   ]
