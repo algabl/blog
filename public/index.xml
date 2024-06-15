@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Alexander Black</title>
-    <link>https://algabl.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Home on Alexander Black</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 17:42:27 -0600</lastBuildDate>
-    <atom:link href="https://algabl.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This is Pretty Cool</title>
-      <link>https://algabl.github.io/blog/posts/this-is-pretty-cool/</link>
+      <link>http://localhost:1313/blog/posts/this-is-pretty-cool/</link>
       <pubDate>Fri, 14 Jun 2024 17:42:27 -0600</pubDate>
-      <guid>https://algabl.github.io/blog/posts/this-is-pretty-cool/</guid>
+      <guid>http://localhost:1313/blog/posts/this-is-pretty-cool/</guid>
       <description>Howdy do.&#xA;I keep writing things to see what will happen.&#xA;Header 2 Hello there </description>
     </item>
     <item>
       <title>About</title>
-      <link>https://algabl.github.io/blog/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Thu, 13 Jun 2024 23:13:30 -0600</pubDate>
-      <guid>https://algabl.github.io/blog/about/</guid>
+      <guid>http://localhost:1313/blog/about/</guid>
       <description>Hello there</description>
     </item>
   </channel>
