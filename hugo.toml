@@ -1,7 +1,7 @@
 baseURL = 'https://algabl.github.io/blog/'
 languageCode = 'en-us'
 title= 'Alexander Black'
-theme = 'Typo'
+theme = 'typo'
 [params]
   # Meta description
   description = "A Blog"
