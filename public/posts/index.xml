@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Alexander Black</title>
-    <link>http://localhost:1313/blog/posts/</link>
-    <description>Recent content in Posts on Alexander Black</description>
+    <title>Posts on Alex Black</title>
+    <link>https://algabl.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Alex Black</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Jun 2024 17:42:27 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://algabl.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This is Pretty Cool</title>
-      <link>http://localhost:1313/blog/posts/this-is-pretty-cool/</link>
+      <link>https://algabl.github.io/blog/posts/this-is-pretty-cool/</link>
       <pubDate>Fri, 14 Jun 2024 17:42:27 -0600</pubDate>
-      <guid>http://localhost:1313/blog/posts/this-is-pretty-cool/</guid>
+      <guid>https://algabl.github.io/blog/posts/this-is-pretty-cool/</guid>
       <description>Howdy do.&#xA;I keep writing things to see what will happen.&#xA;Header 2 Hello there </description>
     </item>
   </channel>

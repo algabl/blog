@@ -1,6 +1,6 @@
 baseURL = 'https://algabl.github.io/blog/'
 languageCode = 'en-us'
-title= 'Alexander Black'
+title= 'Alex Black'
 theme = 'typo'
 [params]
   # Meta description
@@ -10,8 +10,8 @@ theme = 'typo'
   theme = 'auto'
 
   #Intro on main page, content is markdown
-  homeIntroTitle = 'Hi!'
-  homeIntroContent = "I am a developer"
+  # homeIntroTitle = 'Hi!'
+  # homeIntroContent = "I am a developer"
 
   # Collection to display on home
   homeCollectionTitle = 'Posts'
@@ -38,4 +38,18 @@ url = "/blog/posts"
 name = "about"
 url = "/blog/about"
 
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/alexander-g-black"
 
+[[params.social]]
+name = "github"
+url = "https://github.com/algabl"
+
+[[params.social]]
+name = "cv"
+url ="/test"
+
+[[params.social]]
+name = "rss"
+url = "/blog/index.xml"
