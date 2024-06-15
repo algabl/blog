@@ -1,9 +1,41 @@
 baseURL = 'https://algabl.github.io/blog/'
 languageCode = 'en-us'
 title= 'Alexander Black'
-theme = 'hugo-theme-console'
+theme = 'Typo'
 [params]
-  navLinks = [
-    { name = "about/", url = "about/" },
-    { name = "posts/", url = "posts/" }
-  ]
+  # Meta description
+  description = "A Blog"
+  
+  # Appearance settings
+  theme = 'auto'
+
+  #Intro on main page, content is markdown
+  homeIntroTitle = 'Hi!'
+  homeIntroContent = "I am a developer"
+
+  # Collection to display on home
+  homeCollectionTitle = 'Posts'
+  homeCollection = 'posts'
+
+  # Lists parameters
+  paginationSize = 100
+  listSummaries = true
+  listDateFormat = '2 Jan 2006'
+
+  # Breadcrumbs
+  breadcrumbs = true
+
+
+[[params.menu]]
+name = "home"
+url =  "/blog"
+
+[[params.menu]]
+name = "posts"
+url = "/blog/posts"
+
+[[params.menu]]
+name = "about"
+url = "/blog/about"
+
+

@@ -1,67 +1,187 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alexander Black/about/</title>
+<meta name="viewport" content="width=device-width"><meta name="description" content="" />
+
+<title>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <link rel="stylesheet" href="https://example.org/hugo-theme-console/css/terminal-0.7.2.min.css">
-    <link rel="stylesheet" href="https://example.org/hugo-theme-console/css/animate-4.1.1.min.css">
-    <link rel="stylesheet" href="https://example.org/hugo-theme-console/css/console.css">
+    About | Alexander Black
     
-      <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-       <meta property="og:title" content="About" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.org/about/" /><meta property="article:published_time" content="2024-06-13T23:13:30-06:00" />
+</title>
 
 
 
-<meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="Hello there"/>
+
+
+
+
+<link rel="stylesheet" href="/blog/assets/combined.min.f69b4a5b91a9bc416804eda1f19d04210551b843d47318bf1913d7edce1504fb.css" media="all">
+
+
+
 
   
 
 
-</head>
-<body class="terminal">
-    <div class="container">
-        <div class="terminal-nav">
-          <header class="terminal-logo">
-            <div class="logo terminal-prompt">
-              
-              
-              <a href="https://example.org/" class="no-style ">Alexander Black</a>:~# 
-              <a href='https://example.org/about'>about</a>/</div></header>
-          <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                
-                <li><a href="https://example.org/about" typeof="ListItem">/about</a></li>
-                
-                <li><a href="https://example.org/posts" typeof="ListItem">/posts</a></li>
-                
-            </ul>
-          </nav>
-        </div>
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+    <h1 class="header-title">Alexander Black</h1>
+
+    <div class="flex">
+        
+
+        
+        
+        <p class="small ">
+            <a href="/blog">
+                /home
+            </a>
+        </p>
+        
+        <p class="small ">
+            <a href="/blog/posts">
+                /posts
+            </a>
+        </p>
+        
+        <p class="small ">
+            <a href="/blog/about">
+                /about
+            </a>
+        </p>
+        
+        
     </div>
 
-    <div class="container " >
+</div>
+      </header>
+
+      <main class="main">
         
-<h1>About</h1>
-<p>Hello there</p>
 
 
-        <div class="footer">
-    Powered by <a href="https://gohugo.io/">Hugo</a> with
-    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+
+
+<div class="breadcrumbs">
+    
+    <a href="/blog/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/blog/about/">About</a>
 </div>
 
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">About</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-06-13T23:13:30-06:00">June 13, 2024</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>Hello there</p>
+
+    
+  </div>
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
     </div>
+
+    <footer>
+      <p>Powered by
+    <a href="https://gohugo.io/">Hugo</a>
+    and
+    <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+</p>
+
+
+    </footer>
+
   </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
 </html>

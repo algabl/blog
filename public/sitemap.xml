@@ -1,45 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    
-        
-        <url>
-            <loc>https://example.org/</loc>
-            <lastmod>2024-06-14T17:42:27-06:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/posts/my-first-post/</loc>
-            <lastmod>2024-06-14T17:42:27-06:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/posts/</loc>
-            <lastmod>2024-06-14T17:42:27-06:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/about/</loc>
-            <lastmod>2024-06-13T23:13:30-06:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://example.org/tags/</loc>
-        </url>
-        
-    
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://algabl.github.io/blog/</loc>
+    <lastmod>2024-06-14T17:42:27-06:00</lastmod>
+  </url><url>
+    <loc>https://algabl.github.io/blog/posts/</loc>
+    <lastmod>2024-06-14T17:42:27-06:00</lastmod>
+  </url><url>
+    <loc>https://algabl.github.io/blog/posts/this-is-pretty-cool/</loc>
+    <lastmod>2024-06-14T17:42:27-06:00</lastmod>
+  </url><url>
+    <loc>https://algabl.github.io/blog/about/</loc>
+    <lastmod>2024-06-13T23:13:30-06:00</lastmod>
+  </url><url>
+    <loc>https://algabl.github.io/blog/categories/</loc>
+  </url><url>
+    <loc>https://algabl.github.io/blog/tags/</loc>
+  </url>
 </urlset>
