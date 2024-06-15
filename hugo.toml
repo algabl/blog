@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://algabl.github.io/blog'
 languageCode = 'en-us'
 title= 'Alexander Black'
 theme = 'hugo-theme-console'
