@@ -13,3 +13,14 @@ Anything. Hello, anyone home?
 ## Hi
 
 ![image](/blog/photos/doge.jpg "A doge")
+
+
+```html
+<html></html>
+```
+
+```css
+.test-class {
+    font-size: large;
+}
+```

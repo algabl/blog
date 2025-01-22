@@ -4,10 +4,12 @@ title= 'Alex Black'
 theme = 'typo'
 [params]
   # Meta description
-  description = "A Blog"
+  description = "Alex Black's Blog"
   
   # Appearance settings
-  theme = 'auto'
+  theme = 'dark'
+  colorPallette = 'catpuccin'
+
 
   #Intro on main page, content is markdown
   # homeIntroTitle = 'Hi!'
@@ -38,6 +40,7 @@ url = "/blog/posts"
 name = "about"
 url = "/blog/about"
 
+
 [[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/alexander-g-black"
@@ -53,3 +56,7 @@ url ="/test"
 [[params.social]]
 name = "rss"
 url = "/blog/index.xml"
+
+[markup]
+[markup.highlight]
+style = 'catppuccin-mocha'
