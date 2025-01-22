@@ -1,7 +1,7 @@
 +++
 title = 'This is Pretty Cool'
 date = 2024-06-14T17:42:27-06:00
-draft = false
+draft = true
 +++
 Howdy do.
 
