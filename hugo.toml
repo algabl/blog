@@ -27,6 +27,9 @@ theme = 'typo'
   # Breadcrumbs
   breadcrumbs = true
 
+  # Footer
+  footerContent = "© 2025 Alex Black"
+
 
 [[params.menu]]
 name = "home"
@@ -54,8 +57,8 @@ name = "github"
 url = "https://github.com/algabl"
 
 [[params.social]]
-name = "cv"
-url ="/test"
+name = "bluesky"
+url = "https://bsky.app/profile/algabl.bsky.social"
 
 [[params.social]]
 name = "rss"
