@@ -67,3 +67,8 @@ url = "/blog/index.xml"
 [markup]
 [markup.highlight]
 style = 'catppuccin-mocha'
+
+[params.umami]
+enable = true
+websiteId = "1cd9cf5e-0bfe-4d23-a1c2-9159733190bc"
+jsLocation = "https://cloud.umami.is/script.js"
