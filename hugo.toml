@@ -1,4 +1,4 @@
-baseURL = 'https://algabl.github.io/blog/'
+baseURL = 'https://www.imalexblack.dev/'
 languageCode = 'en-us'
 title= 'Alex Black'
 theme = 'typo'
@@ -33,19 +33,19 @@ theme = 'typo'
 
 [[params.menu]]
 name = "home"
-url =  "/blog"
+url =  "/"
 
 [[params.menu]]
 name = "posts"
-url = "/blog/posts"
+url = "/posts"
 
 [[params.menu]]
 name = "tags"
-url = "/blog/tags"
+url = "/tags"
 
 [[params.menu]]
 name = "about"
-url = "/blog/about"
+url = "/about"
 
 
 [[params.social]]
@@ -62,7 +62,7 @@ url = "https://bsky.app/profile/algabl.bsky.social"
 
 [[params.social]]
 name = "rss"
-url = "/blog/index.xml"
+url = "/index.xml"
 
 [markup]
 [markup.highlight]

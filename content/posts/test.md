@@ -12,7 +12,7 @@ Anything. Hello, anyone home?
 
 ## Hi
 
-![image](/blog/photos/doge.jpg "A doge")
+![image](/photos/doge.jpg "A doge")
 
 ```html
 <html></html>
