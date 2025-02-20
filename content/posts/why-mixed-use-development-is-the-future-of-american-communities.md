@@ -1,6 +1,6 @@
 +++
 title = 'Why Mixed-Use Development Is the Future of American Communities'
-date = 2025-01-29T08:24:21-07:00
+date = 2025-02-19T08:24:21-07:00
 draft = false
 readTime = true
 +++
