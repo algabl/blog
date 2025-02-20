@@ -8,7 +8,7 @@ theme = 'typo'
   
   # Appearance settings
   theme = 'dark'
-  colorPallette = 'catpuccin'
+  colorPalette = 'gruvebox'
 
 
   #Intro on main page, content is markdown
