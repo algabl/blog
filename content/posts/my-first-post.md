@@ -12,4 +12,4 @@ I plan to share various thoughts and things I have learned throughout my time as
 
 Alex
 
-P.S. Click [here](/blog/about) if you want to learn more about me 🤠
+P.S. Click [here](/about) if you want to learn more about me 🤠
