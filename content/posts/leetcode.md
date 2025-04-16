@@ -4,7 +4,7 @@ date = 2025-02-28T15:35:52-07:00
 draft = false
 tags = ["project"]
 readTime = true
-
+toc = true
 +++
 
 > Here are a few Leetcode/Leetcode-esque problems that I have been working on over the past couple of months
