@@ -2,6 +2,9 @@ baseURL = 'https://www.imalexblack.dev/'
 languageCode = 'en-us'
 title= 'Alex Black'
 theme = 'typo'
+unsafe = 'true'
+
+
 [params]
   # Meta description
   description = "Alex Black's Blog"
@@ -67,8 +70,21 @@ url = "/index.xml"
 [markup]
 [markup.highlight]
 style = 'catppuccin-mocha'
+[markup.goldmark]
+[markup.goldmark.extensions]
+    strikethrough = false
+[markup.goldmark.extensions.extras]
+    [markup.goldmark.extensions.extras.delete]
+        enable = true
+    [markup.goldmark.extensions.extras.subscript]
+        enable = true
+    [markup.goldmark.extensions.extras.superscript]
+        enable = true
 
 [params.umami]
 enable = true
 websiteId = "1cd9cf5e-0bfe-4d23-a1c2-9159733190bc"
 jsLocation = "https://cloud.umami.is/script.js"
+
+[taxonomies]
+    tag = "tags"

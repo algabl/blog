@@ -3,6 +3,7 @@ title = 'Why Mixed-Use Development Is the Future of American Communities'
 date = 2025-02-19T08:24:21-07:00
 draft = false
 readTime = true
+tags = ["urbanism"]
 +++
 
 > This article was originally published as a [PDF](/files/why-mixed-use-development-is-thefuture-of-american-communities.pdf)
